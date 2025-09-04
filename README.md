@@ -178,3 +178,31 @@ print("empirical mean≈", round(mean,3), "var≈", round(var,3), "theory var=p(
 2. Strong positive alignment/correlation. 5) $0.8\cdot0.2/0.5=0.32$.
 
 ---
+
+Use Git Large File Storage (Git LFS)
+Git LFS is designed for versioning large files like datasets, models, or media.
+
+🔧 Step-by-Step Setup
+Install Git LFS (if not already installed):
+
+```bash
+git lfs install
+Track the large file:
+```
+
+```bash
+git lfs track "Matrix/matrix-based-ml-techqniues/creditcard.csv"
+Add the .gitattributes file created by LFS:
+```
+
+```bash
+git add .gitattributes
+Re-add the large file:
+```
+
+```bash
+git add Matrix/matrix-based-ml-techqniues/creditcard.csv
+git commit -m "Track large dataset with Git LFS"
+git push origin main
+```
+🔗 GitHub will now store the file via LFS and allow the push.
