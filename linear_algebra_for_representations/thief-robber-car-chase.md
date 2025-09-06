@@ -10,6 +10,18 @@ Contemporary applications
 - Recommenders (e.g., singular value decomposition, SVD)
 
 
+Intro to Linear Algebra is foundational for:
+1. Intro to Linear Algebra
+2. Linear Algebra II: Matrix Operations
+3. Calculus I: Limits & Derivates
+4. Calculus II: Partial Derivates & Integrals
+5. Probability & Information Theory
+6. Intro to Statistics
+7. Algorithms & Data Structures
+8. Optimization
+
+
+
 
 Linear Algebra
 - Sheriff has 180 km/h car
