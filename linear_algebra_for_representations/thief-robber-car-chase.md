@@ -28,3 +28,7 @@ Linear Algebra
 - Bank robber has 150 km/h car and 5 minute head start
 - How long does it take the sheriff to catch the robber ?
 - What distance will they have travelled at that point?
+
+150 km/h = 2.5 km/min
+180 km/h = 3 km/min
+
